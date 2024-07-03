@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nummus Bank</title>
+    <link rel="stylesheet" href="/asset/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="/asset/CSS/payment.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="row m-0 p-0">
+        <!-- side_bar -->
+        <div class="col-12 shadow col-sm col-md-3 col-lg-2 vh-100 d-lg-block d-none sticky-top shadow side_bar_col">
+            <div class=" p-4 ps-xl-5">
+                <a href="/asset/HTML/index.html"><img src="/asset/images/Nb2.png" alt="Logo" class=""></a>
+            </div>
+
+            <div class="">
+                <a href="/asset/HTML/overview.html" class="text-decoration-none nav_bar nav-link">
+                    <div class="nav-item d-flex align-items-center mb-3 py-2 pt-3">
+                        <img src="/asset/images/Overview.png" alt="Overview" class="me-2">
+                        <p class="m-0 text-dark">Overview</p>
+                    </div>
+                </a>
+                <div class="nav-item d-flex align-items-center mb-3  py-2 nav_bar">
+                    <img src="/asset/images/Accounts.png" alt="Accounts" class="me-2">
+                    <p class="m-0">Accounts</p>
+                </div>
+                <a href="/asset/HTML/payment.html" class="text-decoration-none nav_bar nav-link">
+                    <div class="nav-item d-flex align-items-center mb-3 py-2 ">
+                        <img src="/asset/images/usd-circle.png" alt="payments" class="me-2">
+                        <p class="m-0 text-dark">Payments</p>
+                    </div>
+                </a>
+                <div class="nav-item d-flex align-items-center mb-3 py-2 nav_bar ">
+                    <img src="/asset/images/Cards.png" alt="Cards" class="me-2">
+                    <p class="m-0">Cards</p>
+                </div>
+                <div class="nav-item d-flex align-items-center mb-3 py-2 nav_bar">
+                    <img src="/asset/images/Transactions.png" alt="Transactions" class="me-2">
+                    <p class="m-0">Transactions</p>
+                </div>
+                <div class="nav-item d-flex align-items-center mb-3 py-2 nav_bar">
+                    <img src="/asset/images/Templates.png" alt="Templates" class="me-2">
+                    <p class="m-0">Templates</p>
+                </div>
+                <div class="nav-item d-flex align-items-center mb-3 py-2 nav_bar">
+                    <img src="/asset/images/currency.png" alt="currency exchange" class="me-2 ">
+                    <p class="m-0 ">Currency Exchange</p>
+                </div>
+                
+                <div class="nav-item d-flex align-items-center mb-3 py-2 nav_bar">
+                    <img src="/asset/images/ATM_Locations.png" alt="ATM Locations" class="me-2">
+                    <p class="m-0">ATM Locations</p>
+                </div>
+            </div>
+        </div>
+        <!-- side_bar -->
+
+        <div class="col sec_col_bg">
+            
+            <div class="row  d-block sticky-top ">
+                <!-- top row list nva_bar -->
+                <div class="col-12 m-0 px-0 nav_col ">
+                    <ul class="d-flex px-0 m-0 text-center flex-wrap  ">
+                        <li class="d-inline-block d-lg-none ps-3 " id="Logo"><a href="/asset/HTML/index.html"><img
+                                    src="/asset/images/NB_sm-md.png" alt="Logo" class=""></a>
+                        </li>
+                        <li class=" d-none d-lg-inline-block text-start text-dark text-opacity-50 fw-bold py-3 ps-2 ps-sm-3"
+                            id="overview">OVERVIEW</li>
+                        <li class=" list-unstyled d-inline-block p-0 user_icon">
+                            <img src="/asset/images/user_detail - Copy.png" alt="user" class="p-3 border-start border-end float-end ">
+                        </li>
+                        
+                        <li class="  px-0 px-lg-2 list-unstyled pt-3  d-inline-block position-relative">
+                            <button type="button" class="btn p-0 mx-2 m-0 position-relative">
+                                <img src="/asset/images/bell.png" alt="Notification" class=" float-end">
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    5
+                                </span>
+                            </button>
+                            <img class="mx-2 " src="/asset/images/setting.png" width="24px" height="24px" />
+                        </li>
+                        <li class="  d-block d-lg-none   ">
+                            <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#collapseOne"
+                                aria-controls="collapseOne" type="button"><img src="/asset/images/blue list.png"
+                                    width="34px" height="34px" alt=""></button>
+                            <div class="offcanvas offcanvas-end w-75" id="collapseOne" aria-labelledby="collapseOne"
+                                tabindex="-1">
+                                <div class="offcanvas-header text-center d-flex justify-content-between">
+                                    <div class=" p-4 ps-xl-5">
+                                        <a href="/asset/HTML/index.html"><img src="/asset/images/Nb2.png" alt="Logo"
+                                                class=""></a>
+                                    </div>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="mt-3 offcanvas-body p-0">
+                                    <a href="/asset/HTML/overview.html"
+                                        class="col-12 w-auto text-start side_bar text-decoration-none nav-link ">
+                                        <img class="me-2 ms-3" src="/asset/images/Overview.png" width="24px"
+                                            height="24px" />
+                                        <p class="d-inline-block text-center ps-0 p-3 mb-0 ">Overview</p>
+                                    </a>
+                                    <div class="col-12 w-auto text-start side_bar">
+                                        <img class="me-2 ms-3" src="/asset/images/Accounts.png" width="24px"
+                                            height="30px" />
+                                        <p class="d-inline-block text-center ps-0 p-3 mb-0 ">Accounts</p>
+                                    </div>
+                                    <a href="/asset/HTML/payment.html"
+                                        class="col-12 w-auto text-start side_bar text-decoration-none nav-link ">
+                                        <img class="me-2 ms-3" src="/asset/images/usd-circle.png" width="24px"
+                                            height="24px" />
+                                        <p class="d-inline-block text-center ps-0 p-3 mb-0 ">Payments</p>
+                                    </a>
+                                    <div class="col-12 w-auto text-start side_bar">
+                                        <img class="me-2 ms-3" src="/asset/images/Cards.png" width="24px"
+                                            height="24px" />
+                                        <p class="d-inline-block text-center ps-0 p-3 mb-0 ">Cards</p>
+                                    </div>
+                                    <div class="col-12 w-auto text-start side_bar">
+                                        <img class="me-2 ms-3" src="/asset/images/Transactions.png" width="24px"
+                                            height="24px" />
+                                        <p class="d-inline-block ps-0 p-3 mb-0 ">Transactions</p>
+                                    </div>
+                                    <div class="col-12 w-auto text-start side_bar">
+                                        <img class="me-2 ms-3" src="/asset/images/Templates.png" width="24px"
+                                            height="24px" />
+                                        <p class="d-inline-block text-center ps-0 p-3 mb-0 ">Templates</p>
+                                    </div>
+                                    <div class="col-12 w-auto text-start side_bar">
+                                        <img class="me-2 ms-3" src="/asset/images/currency.png" width="24px"
+                                            height="24px" />
+                                        <p class="d-inline-block text-center ps-0 p-3 mb-0 ">Current Excahnge</p>
+                                    </div>
+                                    <div class="col-12 w-auto text-start side_bar">
+                                        <img class="me-2 ms-3" src="/asset/images/ATM_Locations.png" width="24px"
+                                            height="24px" />
+                                        <p class="d-inline-block text-center ps-0 p-3 mb-0 ">ATM Locations</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- top row list nva_bar -->
+            </div>
+            <!-- new payment table  -->
+            <div class="col-12 pt-4" >
+                <div class="card w-100  border border-none">
+                    <div class="card-header new_pay" >
+                        <div class="row">
+                            <div class="col-5 col-md-9">
+                                <div class="new_pay_text ">New Payment</div>
+                            </div>
+                            <div class="col-7 col-md-3 ">
+                                <div class="text-primary text-end pay_temp">Payee templates <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body ">
+                        <div class="col fw-semibold">From</div>
+                        <br>
+                        <div class="d-block d-md-none">
+                            <div class="col text-dark text-opacity-50">SELECTED ACCOUNT</div>
+                            <div class="col-12 col-md-4">
+                                <div class="col rounded-3 position-relative blue_color mt-2">
+                                    <div class="col">
+                                        <div class="text-light w-100 text-start p-1 "> My private account <span class=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-chevron-down text-light text-end  position-absolute my_pri_acc "
+                                            viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                                        </svg></span>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        
+                            <div class="col-7 text-dark text-opacity-50 mt-3">ACCOUNT DETAILS</div>
+                            <div class="row">
+                                <div class="col-12 col-md-12 col-xl-3 p-xl-0 d-xl-flex  mt-2"> <span
+                                        class="text-dark text-opacity-50"> Available</span> : <span
+                                        class="fw-bolder">$10,840.00</span></div>
+                                <div class="col-12 col-md-12 col-xl-5  p-xl-0 ps-xl-3 d-xl-flex  mt-2"> <span
+                                        class="text-dark text-opacity-50">Account Number : <span
+                                            class="fw-bold text-dark">65846952133</span></div>
+                                <div class="col-12 col-md-12 col-xl-4 p-xl-0  ps-xl-3  d-xl-flex  my-2"> <span
+                                        class="text-dark text-opacity-50">Account Status</span> : <span
+                                        class="fw-bolder">Active</span></div>
+                            </div>
+                        </div>
+                        <div class="d-none d-md-block">
+                            <div class="row">
+                                    <div class="col-4 text-dark text-opacity-50">SELECTED ACCOUNT</div>
+                                    <div class="col-1 d-noned-md-block"></div>
+                                    <div class="col-7 text-dark text-opacity-50">ACCOUNT DETAILS</div>
+                            </div><br>
+                            <div class="row px-2 ">
+                                <div class="col-12 col-md-4">
+                                    <div class="row rounded-3 position-relative blue_color">
+                                        <div class="col p-2">
+                                            <div class="text-light w-100 text-start p-1 "> My private account <span class=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-chevron-down text-light text-end  position-absolute my_pri_acc "
+                                                viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                                            </svg></span></div>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="col-0 col-md-1 pt-sm-3 ">
+
+                                </div>
+                                <div class="col-12 col-md-7 pt-3 pt-md-0 ">
+                                    <div class="row">
+                                        <div class="col-12 col-md-12 col-xl-3 p-xl-0 d-xl-flex"> <span
+                                                class="text-dark text-opacity-50"> Available</span> : <span
+                                                class="fw-bolder">$10,840.00</span></div>
+                                        <div class="col-12 col-md-12 col-xl-5  p-xl-0 ps-xl-3 d-xl-flex "> <span
+                                                class="text-dark text-opacity-50">Account Number : <span
+                                                    class="fw-bold text-dark">65846952133</span></div>
+                                        <div class="col-12 col-md-12 col-xl-4 p-xl-0  ps-xl-3  d-xl-flex "> <span
+                                                class="text-dark text-opacity-50">Account Status</span> : <span
+                                                class="fw-bolder">Active</span></div>
+                                    </div>
+                                </div>
+                            </div><br>
+                        </div>
+                        <div class="row ">
+                            <div class="col line "></div>
+                        </div><br>
+                        <div class="col">To</div><br>
+                        <div class="row">
+                            <div class="col-12 col-lg-6 col-xl-4">
+                                <form class="form-label">
+                                    <label class="form-label text-dark text-opacity-50 " for="pay_name">PAYMENT
+                                        NAME</label>
+                                    <input type="text" id="pay_name" class="form-control w-100 fw-bold mb-2 ">
+                                </form>
+                            </div>
+                            <div class="col-12 col-lg-6 col-xl-4">
+                                <form class="form-label">
+                                    <label class="form-label text-dark text-opacity-50 " for="des_address">DESTINATION
+                                        ADDRESS</label>
+                                    <input type="text" id="des_address" class="form-control w-100 fw-bold mb-2 ">
+                                </form>
+                            </div>
+                            <div class="col-12 col-lg-6 col-xl-4">
+                                <form class="form-label">
+                                    <label class="form-label text-dark text-opacity-50 " for="pay_address">PAYEE
+                                        ADDRESS</label>
+                                    <input type="text" id="pay_address" class="form-control w-100 fw-bold mb-2 ">
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-6 col-xl-2 position-relative">
+                                <form class="form-label ">
+                                    <label class="form-label text-dark text-opacity-50 " for="amount">AMOUNT</label>
+                                    <input type="text" id="amount" class="form-control w-100 fw-bold mb-2  ">
+                                    <div class="position-absolute pos_abo "> <small class="pos_num_fs"
+                                            >0.00</small><small class="fw-semibold pos_word_fs">USD</small></div>
+                                </form>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6 col-xl-4">
+                                <form class="form-label">
+                                    <label class="form-label text-dark text-opacity-50 " for="mod_ref">MODEL AND
+                                        REFERENCE NUMBER</label>
+                                    <input type="text" id="mod_ref" class="form-control w-100 fw-bold mb-2 ">
+                                </form>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6 col-xl-2 position-relative">
+                                <form class="form-label ">
+                                    <label class="form-label text-dark text-opacity-50 " for="pay_2Add">PAYEE
+                                        ADDRESS</label>
+                                    <input type="text" id="pay_2Add" class="form-control w-100 fw-bold mb-2  ">
+                                    <div class="position-absolute top-50 " style="left: 80%;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-chevron-down text-primary "
+                                            viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                                        </svg>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6 col-xl-4">
+                                <form class="form-label">
+                                    <label class="form-label text-dark text-opacity-50 " for="pay_purpose">PAYMENT
+                                        PURPOSE</label>
+                                    <input type="text" id="pay_purpose" class="form-control w-100 fw-bold mb-2 ">
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center p-0 ">
+                            <!-- <div class="col-5 col-md-3 col-lg-3 col-xl-2 "> -->
+                                <button class="btn  btn-sm btn-md btn-lg py-2 text-primary px-4 px-md-5 w-auto rounded-3 cancel_btn me-2" > Cancel</button>
+                            <!-- </div> -->
+                            <!-- <div class="col-6 col-md-2  col-xl-2 p-0"> -->
+                                <button
+                                    class="btn btn-sm btn-md btn-lg py-2 text-light px-4 w-auto px-md-5 rounded-3  pay_btn ">Pay</button>
+                            <!-- </div>  -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- new payment table  -->
+            
+            <div class="row pt-3">
+                 <!-- connected bill table  -->
+                <div class="col-12 col-lg-12 col-xl-6 ">
+                    <div class="card w-100 overflow-auto px-0 border border-none ">
+                        <div class="card-header p-0 card_head_bg ">
+                            <table class="table table-borderless ">
+                                <thead>
+                                    <tr>
+                                        <td class="p-0 ps-3 pt-3" colspan="3">Connected Bills</td>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                        <div class="card-body p-0 overflow-auto pt-3 ">
+                            <table class="table table-striped table-borderless">
+                                <thead>
+                                    <tr>
+                                        <td class="text-dark text-opacity-75 three_row_tb_td ">BILL TYPE <img
+                                                src="/asset/images/up-and-down-arrows.png" alt="" width="12px"
+                                                height="16px"></td>
+                                        <td class="text-dark text-opacity-75 three_row_tb_td " >PAYEE <img
+                                                src="/asset/images/up-and-down-arrows.png" alt="" width="12px"
+                                                height="16px"></td>
+                                        <td class="text-dark text-opacity-75 three_row_tb_td"> ACTION </td>
+                                    </tr>
+
+                                </thead>
+                                <tbody>
+
+
+                                    <tr>
+                                        <td class="fw-bold "> Electric Bill</td>
+                                        <td class="text-dark text-opacity-75">My private account</td>
+                                        <td class="text-center">...</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold "> Water Bill</td>
+                                        <td class="text-dark text-opacity-75">My private account</td>
+                                        <td class="text-center">...</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold ">Trash/Recycle</td>
+                                        <td class="text-dark text-opacity-75">My private account</td>
+                                        <td class="text-center">...</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold "> Netflix</td>
+                                        <td class="text-dark text-opacity-75">our account</td>
+                                        <td class="text-center">...</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold ">Xfinity</td>
+                                        <td class="text-dark text-opacity-75">our account</td>
+                                        <td class="text-center">...</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold "> Auto Loans</td>
+                                        <td class="text-dark text-opacity-75">our account</td>
+                                        <td class="text-center">...</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                 <!-- connected bill table  -->
+                <!-- reeceived bill table  -->
+                <div class="col-12 col-lg-12 col-xl-6 pt-3 pt-lg-0 mt-3 mt-xl-0" >
+                    <div class="card w-100 px-0  border border-none">
+                        <div class="card-header fw-normal p-2 card_head_bg" >
+                            <table class="table m-0  table-borderless">
+                                <thead>
+                                    <tr>
+                                        <td class="" colspan="4">Received Bills</td>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                        <div class="card-body p-0 overflow-auto ">
+                            <table class="table table-striped table-borderless">
+                                <thead>
+                                    <tr>
+                                        <td class="text-dark text-opacity-75 three_row_tb_td">BILL TYPE <img
+                                                src="/asset/images/up-and-down-arrows.png" alt="" width="12px"
+                                                height="16px"></td>
+                                        <td class="text-dark text-opacity-75 three_row_tb_td">PAYEE <img
+                                                src="/asset/images/up-and-down-arrows.png" alt="" width="12px"
+                                                height="16px"></td>
+                                        <td class="text-dark text-opacity-75 three_row_tb_td">AMOUNT <img
+                                                src="/asset/images/up-and-down-arrows.png" alt="" width="12px"
+                                                height="16px"></td>
+                                        <td class="text-dark text-opacity-75 three_row_tb_td"> ACTION </td>
+                                    </tr>
+
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-dark text-opacity-75 "> Electric Bill</td>
+                                        <td class="text-dark text-opacity-75">My private account</td>
+                                        <td class="fw-bold "> $170.86</td>
+                                        <td><button class="btn btn-sm blue_color text-light btn-nowrap">Pay
+                                                bill</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-dark text-opacity-75 "> Water Bill</td>
+                                        <td class="text-dark text-opacity-75">My private account</td>
+                                        <td class="fw-bold "> $70.76</td>
+                                        <td><button class="btn btn-sm  blue_color text-light btn-nowrap">Pay
+                                                bill</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-dark text-opacity-75 ">Trash/Recycle</td>
+                                        <td class="text-dark text-opacity-75">My private account</td>
+                                        <td class="fw-bold ">$80.06</td>
+                                        <td><button class="btn btn-sm  blue_color text-light btn-nowrap">Pay
+                                                bill</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-dark text-opacity-75 "> Netflix</td>
+                                        <td class="text-dark text-opacity-75">our account</td>
+                                        <td class="fw-bold ">$790.86</td>
+                                        <td><button class="btn btn-sm blue_color text-light btn-nowrap">Pay
+                                                bill</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-dark text-opacity-75 ">Xfinity</td>
+                                        <td class="text-dark text-opacity-75">our account</td>
+                                        <td class="fw-bold "> $670.86</td>
+                                        <td><button class="btn btn-sm  blue_color text-light btn-nowrap">Pay
+                                                bill</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-dark text-opacity-75 "> Auto Loans</td>
+                                        <td class="text-dark text-opacity-75">our account</td>
+                                        <td class="fw-bold "> $13 b0.86</td>
+                                        <td><button class="btn btn-sm blue_color text-light btn-nowrap">Pay
+                                                bill</button></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- reeceived bill table  -->
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/asset/JS/bootstrap.bundle.js"></script>
+
+</html>

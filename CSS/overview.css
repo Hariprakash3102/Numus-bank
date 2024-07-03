@@ -1,0 +1,172 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.nav_col{
+    background-color:#ffffff;
+    height: 50px;
+}
+
+.user_icon{
+    margin-left: auto;
+}
+
+.fav_acc{
+    background-color: #f2f4f8;
+}
+
+.acc_content{
+    border-radius: 10px;
+}
+
+.acc_detail_content{
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.acount_type{
+    font-weight: 600;
+}
+
+.account_type_details{
+    font-size: 12px; 
+}
+
+.body_content{
+    background-color: #e6eaf1;
+}
+
+.rec_tra_bg{
+    background-color: #ffffff;
+}
+
+.rec_tra_tb{
+    font-size:smaller;
+}
+
+.two_card_first_gradient{
+    background-image: linear-gradient(to right, #afbacf, #8593ad);
+}
+
+.two_card_sec_gradient{
+    background-image: linear-gradient(to right, #d5c3b3, #bba28d);
+}
+
+.nav_bar:hover {
+    background-color: #f2f4f8;
+    border-right: 3px solid #3857bb;
+}
+
+#overviewBlock{
+    background-color: #ffffff;
+}
+
+.side_bar:hover{
+    background-color: #f2f4f8;
+    border-right: 2px solid #3857bb;
+}
+
+#row_active{
+    background-color:#5e85f6;
+    color : #ffffff;
+} 
+
+.blue_color{
+    background-color:#5e85f6;
+}
+
+#overviewBlock:hover{
+    background-color:#5e85f6;
+    color : #ffffff;
+}
+.btn_trans{
+    background-color:#cad6f2;
+}
+.btn_trans:hover{
+    background-color:#cad6f2;
+}
+.blue_color:hover{
+    background-color:#5e85f6;
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+@media screen and (max-width:768px) {
+    .flex_col{
+       overflow: scroll;
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    #row_active::after {
+        content: '';
+        position: absolute;
+        right: -10px;
+        top: 45%;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-left: 15px solid #6492dc;
+        opacity: 1;
+        z-index: -1;
+      }
+    
+    #overviewBlock::after {
+        content: '';
+        position: absolute;
+        right: -10px;
+        top: 45%;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-left: 15px solid #6492dc;
+        opacity: 0;
+        z-index: -1;
+      }
+     
+    #overviewBlock:hover::after {
+        opacity: 1;
+      } 
+} 
+
+@media screen and (min-width:1440px) {
+    .first_col{
+        width:210px;
+    }
+    
+} 
+
+@media screen and (min-width:2560px) {
+    .first_col{
+        width:230px;
+    }
+    .flex_col{
+        width: 300px;
+    }
+    .our_acc_content{
+        width:87%;
+    }
+    .left_col{
+        width:1520px
+    }
+    .right_col{
+        width:500px
+    }
+    .month_flow_img{
+        padding-left: 200px;
+    }
+    .pay_col{
+        width:150px
+    }
+    .valid_thiru{
+        padding-right:50px;
+    }
+    .graphcir_card{
+        margin-left: 50px;
+    }
+    .acc_num{
+        width:232px;
+    }
+    .status{
+        width: 113px;
+    }
+}

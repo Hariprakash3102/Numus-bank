@@ -1,0 +1,107 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.nav_bar:hover {
+    background-color: #f2f4f8;
+    border-right: 3px solid #3857bb;
+}
+.side_bar:hover {
+    background-color: #f2f4f8;
+    border-right: 3px solid #3857bb;
+}
+
+.nav_col{
+    background-color:#ffffff;
+    height: 50px;
+}
+.my_pri_bg{
+    background-color: #3857bb;
+}
+
+.my_pri_acc{
+    left: 90%;
+    top: 30%;
+}
+
+.user_icon{
+    margin-left: auto;
+}
+
+.sec_col_bg{
+    background-color:#e6eaf1;
+}
+
+.line{
+    border-bottom:2px solid #f7f6f6;
+}
+
+.pos_abo{
+    top:50%; 
+    left:65%;
+}
+
+.pos_num_fs{
+    font-size: 12px;
+}
+
+.pos_word_fs{
+    font-size: 13px;
+}
+
+.cancel_btn{
+    background-color:#cad6f2;
+}
+
+.cancel_btn:hover{
+    background-color:#cad6f2;
+}
+.pay_btn{
+    background-color:#5e85f6;
+}
+
+.pay_btn:hover{
+    background-color:#5e85f6;
+}
+.three_row_tb_td{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+*::-webkit-scrollbar{
+    display: none;
+}
+
+.card_head_bg{
+    background-color: #ffffff;
+}
+.new_pay{
+    background-color: #ffffff;
+}
+.blue_color{
+    background-color:#5e85f6;
+}
+
+.blue_color:hover{
+    background-color:#5e85f6;
+}
+
+@media screen and (max-width:320px) {
+    .new_pay_text{
+        font-size: 14px;
+    }
+    
+    .pay_temp{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:2560px) {
+    .side_bar_col{
+        width: 230px;
+    }
+}
+
+/* <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+     class="bi bi-chevron-down" viewBox="0 0 16 16">
+     <path fill-rule="evenodd"  d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+    </svg> */

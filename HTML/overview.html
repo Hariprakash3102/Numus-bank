@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nummus Bank</title>
+    <link rel="stylesheet" href="/asset/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="/asset/CSS/overview.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="row m-0 p-0">
+        <!-- first col side_bar strating -->
+        <div class="col-12 col-sm col-md-3 col-lg-2 vh-100 d-lg-block d-none sticky-top first_col ">
+            <div class=" p-4 ps-xl-5">
+                <a href="/asset/HTML/index.html"><img src="/asset/images/Nb2.png" alt="Logo" class=""></a>
+            </div>
+
+            <div class="">
+                <a href="/asset/HTML/overview.html" class="text-decoration-none nav_bar text-dark nav-link ">
+                    <div class="nav-item d-flex align-items-center mb-3  py-2 pt-3">
+                        <img src="/asset/images/Overview.png" alt="Overview" class="me-2">
+                        <p class="m-0">Overview</p>
+                    </div>
+                </a>
+                <div class="nav-item d-flex align-items-center nav_bar mb-3  py-2 ">
+                    <img src="/asset/images/Accounts.png" alt="Accounts" class="me-2">
+                    <p class="m-0">Accounts</p>
+                </div>
+                <a href="/asset/HTML/payment.html" class="text-decoration-none nav_bar  nav-link ">
+                    <div class="nav-link d-flex align-items-center mb-3  py-2 ">
+                        <img src="/asset/images/usd-circle.png" alt="payments" class="me-2">
+                        <p class="m-0 text-dark">Payments</p>
+                    </div>
+                </a>
+                <div class="nav-item d-flex align-items-center mb-3  py-2 nav_bar ">
+                    <img src="/asset/images/Cards.png" alt="Cards" class="me-2">
+                    <p class="m-0">Cards</p>
+                </div>
+                <div class="nav-item d-flex align-items-center mb-3  py-2 nav_bar">
+                    <img src="/asset/images/Transactions.png" alt="Transactions" class="me-2">
+                    <p class="m-0">Transactions</p>
+                </div>
+                <div class="nav-item d-flex align-items-center mb-3  py-2 nav_bar ">
+                    <img src="/asset/images/Templates.png" alt="Templates" class="me-2">
+                    <p class="m-0">Templates</p>
+                </div>
+                <div class="nav-item d-flex align-items-center mb-3  py-2 nav_bar ">
+                    <img src="/asset/images/currency.png" alt="currency exchange" class="me-2">
+                    <p class="m-0">Currency Exchange</p>
+                </div>
+                <div class="nav-item d-flex align-items-center mb-3  py-2 nav_bar ">
+                    <img src="/asset/images/ATM_Locations.png" alt="ATM Locations" class="me-2">
+                    <p class="m-0">ATM Locations</p>
+                </div>
+            </div>
+        </div>
+        <!-- first col side_bar ended -->
+        <!-- second col overall Content strating -->
+        <div class="col  body_content">
+            <!-- row with overall Content strating   -->
+            <div class="row  d-block p-0">
+                <!-- Navibar col with unordered list strating   -->
+                <div class="col-12 m-0 px-0 sticky-top z-2 p-0 nav_col ">
+                    <ul class="d-flex px-0 m-0 text-center flex-wrap  ">
+                        <li class="d-inline-block d-lg-none ps-3 " id="Logo"><a href="/asset/HTML/index.html"><img
+                                    src="/asset/images/NB_sm-md.png" alt="Logo" class=""></a>
+                        </li>
+                        <li class=" d-none d-lg-inline-block text-start text-dark text-opacity-50 fw-bold py-3 ps-2 ps-sm-3"
+                            id="overview">OVERVIEW</li>
+                        <li class=" list-unstyled d-inline-block p-0 user_icon">
+                            <img src="/asset/images/user_detail - Copy.png" alt="user"
+                                class="p-3 border-start border-end float-end ">
+                        </li>
+
+                        <li class="  px-0 px-lg-2 list-unstyled pt-3  d-inline-block position-relative">
+                            <button type="button" class="btn p-0 mx-2 m-0 position-relative">
+                                <img src="/asset/images/bell.png" alt="Notification" class=" float-end">
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    5
+                                </span>
+                            </button>
+                            <img class="mx-2 " src="/asset/images/setting.png" width="24px" height="24px" />
+                        </li>
+                        <li class="  d-block d-lg-none   ">
+                            <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#collapseOne"
+                                aria-controls="collapseOne" type="button"><img src="/asset/images/blue list.png"
+                                    width="34px" height="34px" alt=""></button>
+                            <div class="offcanvas offcanvas-end w-75" id="collapseOne" aria-labelledby="collapseOne"
+                                tabindex="-1">
+                                <div class="offcanvas-header text-center d-flex justify-content-between">
+                                    <div class=" p-4 ps-xl-5">
+                                        <a href="/asset/HTML/index.html"><img src="/asset/images/Nb2.png" alt="Logo"
+                                                class=""></a>
+                                    </div>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="mt-3 offcanvas-body p-0">
+                                    <a href="/asset/HTML/overview.html"
+                                        class="col-12 w-auto text-start side_bar text-decoration-none nav-link ">
+                                        <img class="me-2 ms-3" src="/asset/images/Overview.png" width="24px"
+                                            height="24px" />
+                                        <p class="d-inline-block text-center ps-0 p-3 mb-0 ">Overview</p>
+                                    </a>
+                                    <div class="col-12 w-auto text-start side_bar">
+                                        <img class="me-2 ms-3" src="/asset/images/Accounts.png" width="24px"
+                                            height="30px" />
+                                        <p class="d-inline-block text-center ps-0 p-3 mb-0 ">Accounts</p>
+                                    </div>
+                                    <a href="/asset/HTML/payment.html"
+                                        class="col-12 w-auto text-start side_bar text-decoration-none nav-link ">
+                                        <img class="me-2 ms-3" src="/asset/images/usd-circle.png" width="24px"
+                                            height="24px" />
+                                        <p class="d-inline-block text-center ps-0 p-3 mb-0 ">Payments</p>
+                                    </a>
+                                    <div class="col-12 w-auto text-start side_bar">
+                                        <img class="me-2 ms-3" src="/asset/images/Cards.png" width="24px"
+                                            height="24px" />
+                                        <p class="d-inline-block text-center ps-0 p-3 mb-0 ">Cards</p>
+                                    </div>
+                                    <div class="col-12 w-auto text-start side_bar">
+                                        <img class="me-2 ms-3" src="/asset/images/Transactions.png" width="24px"
+                                            height="24px" />
+                                        <p class="d-inline-block ps-0 p-3 mb-0 ">Transactions</p>
+                                    </div>
+                                    <div class="col-12 w-auto text-start side_bar">
+                                        <img class="me-2 ms-3" src="/asset/images/Templates.png" width="24px"
+                                            height="24px" />
+                                        <p class="d-inline-block text-center ps-0 p-3 mb-0 ">Templates</p>
+                                    </div>
+                                    <div class="col-12 w-auto text-start side_bar">
+                                        <img class="me-2 ms-3" src="/asset/images/currency.png" width="24px"
+                                            height="24px" />
+                                        <p class="d-inline-block text-center ps-0 p-3 mb-0 ">Current Excahnge</p>
+                                    </div>
+                                    <div class="col-12 w-auto text-start side_bar">
+                                        <img class="me-2 ms-3" src="/asset/images/ATM_Locations.png" width="24px"
+                                            height="24px" />
+                                        <p class="d-inline-block text-center ps-0 p-3 mb-0 ">ATM Locations</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Navibar col with unordered list ended   -->
+                <!--Body content row strating -->
+                <div class="row m-0 p-lg-0  ">
+                    <!-- Favorite Account col strating -->
+                    <div class="col-12 col-lg-3 col-xl-2 flex_col p-0 ">
+                        <div class="col p- sticky-top z-1 fav_acc">
+                            <div class="col-12 px-0 ">
+                                <h6 class="pt-3 ps-3" style="font-size: 18px;">Favorite Accounts</h6>
+                                <p class="pt-2 ps-3" style="font-size: 13px;">All Active accounts are listed below
+                                </p>
+                            </div>
+                            <div class=" col-12 d-flex d-lg-block flex-nowrap flex-lg-wrap flex_col ps-lg-2 pe-xl-3">
+                                <div
+                                    class=" acc_content col-9 col-sm-4  col-lg-11  col-xl-12 d-xl-block mx-1 my-2 position-relative">
+                                    <div class="d-block p-0 m-0 acc_detail_content" id="row_active">
+                                        <div class="row  justify-content-between px-4 py-2">
+                                            <div class="col text-start px-0 py-1 acount_type">
+                                                Our Account</div>
+                                            <div class="col-2 text-end px-0 py-xl-1 ">
+                                                <img src="/asset/images/list.png " width="18px" height="18px"
+                                                    class="px-0" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="row px-3 ps-4 py-lg-2 py-3 w-100 justify-content-between">
+                                            <div class="col-4 px-0  account_type_details ">Available
+                                            </div>
+                                            <div class="col-4 px-0 d-none d-xl-inline-block  account_type_details"> . .
+                                                . . . . .</div>
+                                            <div class="col-4 px-0 me-2  me-xl-0    account_type_details">
+                                                $10,854.00</div>
+                                        </div>
+                                        <div class="row px-3 ps-4 py-2 w-100 justify-content-between">
+                                            <div class="col-4 px-0  account_type_details  ">Reserved
+                                            </div>
+                                            <div class="col-4 px-0 d-none d-xl-inline-block account_type_details "> . .
+                                                . . . . .</div>
+                                            <div class="col-4 px-0  account_type_details ">$1501.00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-9 col-sm-4 col-lg-11 col-xl-12 d-xl-block mx-1 my-2 p-0 m-0  position-relative acc_content">
+                                    <div class="d-block p-0 m-0 acc_detail_content" id="overviewBlock">
+                                        <div class="row  justify-content-between px-4 py-2  ">
+                                            <div class="col text-start px-0 py-1 acount_type">
+                                                My private Account</div>
+                                            <div class="col-2 text-end px-0 py-xl-1 text-light">
+                                                <img src="/asset/images/blue list.png " width="18px" height="18px"
+                                                    class="px-0" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="row px-3 ps-4 py-lg-2 py-3 w-100 justify-content-between">
+                                            <div class="col-4 px-0 account_type_details ">Available
+                                            </div>
+                                            <div class="col-4 px-0 d-none d-xl-inline-block  account_type_details">. . .
+                                                . . . . </div>
+                                            <div class="col-4 px-0 me-2  me-xl-0  account_type_details">
+                                                $10,854.00</div>
+                                        </div>
+                                        <div class="row px-3 ps-4 py-2 w-100 justify-content-between">
+                                            <div class="col-4 px-0  account_type_details">Reserved
+                                            </div>
+                                            <div class="col-4 px-0 d-none d-xl-inline-block account_type_details"> . .
+                                                . . . . .</div>
+                                            <div class="col-4 px-0   account_type_details">$1501.00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-9 col-sm-4  col-lg-11 col-xl-12 d-xl-block mx-1 my-2 p-0 m-0 bg-light position-relative acc_content">
+                                    <div class="d-block p-0 m-0 acc_detail_content" id="overviewBlock">
+                                        <div class="row  justify-content-between px-4 py-2  ">
+                                            <div class="col text-start px-0 py-1  acount_type">
+                                                Foregin</div>
+                                            <div class="col-2 text-end px-0 py-xl-1 text-light">
+                                                <img src="/asset/images/blue list.png " width="18px" height="18px"
+                                                    class="px-0" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="row px-3 ps-4 py-lg-2 py-3 w-100 justify-content-between">
+                                            <div class="col-4 px-0 account_type_details">Available
+                                            </div>
+                                            <div class="col-4 px-0 d-none d-xl-inline-block  account_type_details"> . .
+                                                . . . . .</div>
+                                            <div class="col-4 px-0 me-2  me-xl-0 account_type_details">
+                                                $10,854.00</div>
+                                        </div>
+                                        <div class="row px-3 ps-4 py-2 w-100 justify-content-between">
+                                            <div class="col-4 px-0  account_type_details">Reserved
+                                            </div>
+                                            <div class="col-4 px-0 d-none d-xl-inline-block  account_type_details"> . .
+                                                . . . . .</div>
+                                            <div class="col-4 px-0 account_type_details">$1501.00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-9 col-sm-4  col-lg-11 col-xl-12 d-xl-block mx-1 my-2 p-0 m-0 bg-light acc_content position-relative">
+                                    <div class="d-block p-0 m-0 acc_detail_content" id="overviewBlock">
+                                        <div class="row  justify-content-between px-4 py-2  ">
+                                            <div class="col text-start px-0 py-1 acount_type">
+                                                Saving</div>
+                                            <div class="col-2 text-end px-0 py-xl-1 text-light">
+                                                <img src="/asset/images/blue list.png " width="18px" height="18px"
+                                                    class="px-0" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="row px-3 ps-4 py-lg-2 py-3 w-100 justify-content-between">
+                                            <div class="col-4 px-0  account_type_details">Available
+                                            </div>
+                                            <div class="col-4 px-0 d-none d-xl-inline-block  account_type_details"> . .
+                                                . . . . .</div>
+                                            <div class="col-4 px-0 me-2  me-xl-0   account_type_details ">
+                                                $10,854.00</div>
+                                        </div>
+                                        <div class="row px-3 ps-4 py-2 w-100 justify-content-between">
+                                            <div class="col-4 px-0  account_type_details">Reserved
+                                            </div>
+                                            <div class="col-4 px-0 d-none d-xl-inline-block  account_type_details"> . .
+                                                . . . . .</div>
+                                            <div class="col-4 px-0 account_type_details">$1501.00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-9 col-sm-4  col-lg-11 col-xl-12 d-xl-block mx-1 my-2 p-0 m-0 bg-light acc_content position-relative">
+                                    <div class="d-block p-0 m-0 acc_detail_content" id="overviewBlock">
+                                        <div class="row  justify-content-between px-4 py-2  ">
+                                            <div class="col text-start px-0 py-1 acount_type">
+                                                Investments</div>
+                                            <div class="col-2 text-end px-0 py-xl-1">
+                                                <img src="/asset/images/blue list.png " width="18px" height="18px"
+                                                    class="px-0" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="row px-3 ps-4 py-lg-2 py-3 w-100 justify-content-between">
+                                            <div class="col-4 px-0 account_type_details">Available
+                                            </div>
+                                            <div class="col-4 px-0 d-none d-xl-inline-block  account_type_details"> . .
+                                                . . . . .</div>
+                                            <div class="col-4 px-0 me-2  me-xl-0   account_type_details ">
+                                                $10,854.00</div>
+                                        </div>
+                                        <div class="row px-3 ps-4 py-2 w-100 justify-content-between">
+                                            <div class="col-4 px-0   account_type_details">Reserved
+                                            </div>
+                                            <div class="col-4 px-0 d-none d-xl-inline-block  account_type_details "> .
+                                                . . . . . .</div>
+                                            <div class="col-4 px-0  account_type_details">$1501.00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Favorite Account col ended -->
+                    <!-- our Account col strating -->
+                    <div class="col-12 col-lg-9 col-xl-10 position-relative our_acc_content">
+                        <!-- Our account header -->
+                        <div class="row">
+                            <div class="col-9 pe-0 ps-4 ">
+                                <p class="mt-4 fw-semibold fs-5">Our Account</p>
+                            </div>
+                            <div class="col-3 pe-0">
+                                <p type="text"
+                                    class="btn btn-sm me-3 mt-4 py-2 dropdown-toggle position-absolute end-0 top-0 text-primary border border-primary">
+                                    Add Widget</p>
+                            </div>
+                        </div>
+                        <!-- Account Details -->
+                        <div class=" row d-flex flex-row  m-0 p-0">
+                            <div class="col-12 col-md-6 col-lg-5 col-xl-3 pe-0 d-lg-flex flex-row  d-inline-block acc_num">
+                                <p><small> <span class="text-dark text-opacity-75">Account number</span> : <span
+                                            class="text-dark text-opacity-50 fw-bold">26489551203</span></small>
+                                </p>
+                            </div>
+                            <div class="col-12  col-md-6 col-lg-3 col-xl-2 pe-0 d-lg-flex flex-row   d-inline-block  status ">
+                                <p><small><span class="text-dark text-opacity-75">Status</span> : <span
+                                            class="text-dark text-opacity-50 fw-bold">Active</span></small></p>
+                            </div>
+                            <div class="col-12  col-md-6 col-lg-5 col-xl-4 pe-0  d-lg-flex flex-row  d-inline-block type">
+                                <p><small><span class="text-dark text-opacity-75">Type</span>: <span
+                                            class="text-dark text-opacity-50 fw-bold">Jion Checking
+                                            Account</span></small></p>
+                            </div>
+                        </div> 
+                        <!-- pay and transfer button -->
+                        <div class="row ">
+                            <div class="col-5 col-md-3 col-lg-3 col-xl-2 pb-3 pb-md-0 pay_col me-2  ">
+                                <button
+                                    class="btn btn-sm btn-md btn-lg py-2 text-light px-5 rounded-3 w-auto w-md-auto  blue_color">Pay</button>
+                            </div>
+                            <div class="col-6 col-md-3 trans_col">
+                                <button
+                                    class="btn  btn-sm btn-md btn-lg py-2 text-primary px-5 rounded-3 w-auto w-md-auto btn_trans">
+                                    Transfer</button>
+                            </div>
+                        </div>
+
+                        <div class="row ">
+                            <!-- left side col in body started -->
+                            <div class="col-12 col-sm col-md-12 col-lg-12 col-xl-8 left_col ">
+                                <!-- Recent Transaction Table col strating -->
+                                <div class="col pt-4 rec_trans">
+                                    <div class="card w-100  px-0 border border-none ">
+                                        <div class="card-header p-2 rec_tra_bg">
+                                            <table class="table  table-borderless m-0 rec_tra_tb">
+                                                <thead>
+                                                    <tr>
+                                                        <th colspan="2">Recent Transactions</th>
+                                                        <th colspan="2" class="text-end text-primary"> view all <img
+                                                                src="/asset/images/close.png" class="ms-2" alt="exit"
+                                                                height="10px" width="10px"></th>
+                                                    </tr>
+                                                </thead>
+                                            </table>
+                                        </div>
+                                        <div class="card-body p-0 overflow-auto">
+                                            <table class="table table-striped table-borderless rec_tra_tb ">
+                                                <thead>
+                                                    <tr class="text-start">
+                                                        <td class="text-dark text-opacity-75">TIMESTAMP <img
+                                                                src="/asset/images/up-and-down-arrows.png" alt=""
+                                                                width="12px" height="16px"> </td>
+                                                        <td class="text-dark text-opacity-75">DESCRIPTION <img
+                                                                src="/asset/images/up-and-down-arrows.png" alt=""
+                                                                width="12px" height="16px"> </td>
+                                                        <td class="text-dark text-opacity-75"> ANOUNT <img
+                                                                src="/asset/images/up-and-down-arrows.png" alt=""
+                                                                width="12px" height="16px"> </td>
+                                                        <td class="text-dark text-opacity-75">ACTION</td>
+                                                    </tr>
+                                                </thead>
+
+
+                                                <tbody>
+
+                                                    <tr>
+                                                        <td class="text-dark text-opacity-75">Mar 12 2021 23:33:24
+                                                        </td>
+                                                        <td class="fw-bold ">Windler,Godwin and Jast</td>
+                                                        <td class="text-center text-success fw-semibold">+$1501.00
+                                                        </td>
+                                                        <td class="text-center">...</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-dark text-opacity-75">Sep 22 2021 23:33:24
+                                                        </td>
+                                                        <td class="fw-bold ">Langosh,Emmerich and Ritchie</td>
+                                                        <td class="text-center text-danger fw-semibold ">-$504.00
+                                                        </td>
+                                                        <td class="text-center">...</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-dark text-opacity-75">Jan 17 2021 23:33:24
+                                                        </td>
+                                                        <td class="fw-bold ">Anderson-Krajcik</td>
+                                                        <td class="text-center text-danger fw-semibold">-$622.00
+                                                        </td>
+                                                        <td class="text-center">...</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-dark text-opacity-75">Aug 01 2021 23:33:24
+                                                        </td>
+                                                        <td class="fw-bold ">Nitzsche,waeichi and Robo</td>
+                                                        <td class="text-center text-danger fw-semibold">-$4,432.00
+                                                        </td>
+                                                        <td class="text-center">...</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Recent Transaction Table col ended -->
+
+                                <div class="row">
+                                    <!-- Received Bills Table started  -->
+                                    <div
+                                        class="col-12 col-sm col-md-12 col-lg-12 col-xl-6 pt-4 ps-xl-3 pt-xl-4 ps-xl-2 pe-xl-0 ">
+                                        <div class="card w-100  border border-none ">
+                                            <div class="card-header p-2 rec_tra_bg">
+                                                <table class="table table-borderless m-0 rec_tra_tb">
+                                                    <thead>
+                                                        <tr>
+                                                            <th colspan="2">Received Bills</th>
+                                                            <th class="text-end text-primary"> view all <img
+                                                                    src="/asset/images/close.png" class="ms-2"
+                                                                    alt="exit" height="10px" width="10px"></th>
+                                                        </tr>
+                                                    </thead>
+                                                </table>
+                                            </div>
+                                            <div class="card-body p-0">
+                                                <table class="table table-striped table-borderless rec_tra_tb">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>NAME <img src="/asset/images/up-and-down-arrows.png"
+                                                                    alt="" width="12px" height="16px"> </td>
+                                                            <td>AMOUNT <img src="/asset/images/up-and-down-arrows.png"
+                                                                    alt="" width="12px" height="16px"> </td>
+                                                            <td>ACTION</td>
+                                                        </tr>
+
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="text-dark text-opacity-75">Electric Bill</td>
+                                                            <td class="fw-bold ">$110.24</td>
+                                                            <td><button
+                                                                    class="btn btn-sm text-light btn-nowrap blue_color">Pay
+                                                                    bill</button></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-dark text-opacity-75">Water Bill</td>
+                                                            <td class="fw-bold ">$$70.86</td>
+                                                            <td><button
+                                                                    class="btn btn-sm text-light btn-nowrap blue_color">Pay
+                                                                    bill</button></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-dark   text-opacity-75">Trash/Recycling
+                                                            </td>
+                                                            <td class="fw-bold ">$14.32</td>
+                                                            <td><button
+                                                                    class="btn btn-sm blue_color  text-light btn-nowrap">Pay
+                                                                    bill</button></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-dark blue_color  text-opacity-75">Spotify</td>
+                                                            <td class="fw-bold ">$9.99</td>
+                                                            <td><button
+                                                                    class="btn btn-sm blue_color text-light btn-nowrap">Pay
+                                                                    bill</button></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Received Bills Table ended  -->
+                                    <!-- Monthly flow Table started  -->
+                                    <div class="col-12 col-sm-12 col-md-6 col-xl-6 mt-4 ">
+                                        <div class="card w-auto  border border-none  ">
+                                            <div class="card-header position-relative p-3 w-100 rec_tra_bg">
+                                                <table>
+                                                    <thead>
+                                                        <tr>
+                                                            <th class="fw-semibold">Monthly Expenses Flow </th>
+                                                            <th class=" position-absolute end-0 me-2 w-lg-100"><img
+                                                                    src="/asset/images/close.png" alt=""
+                                                                    class="justify-content-end" width="10px"
+                                                                    height="10px"></th>
+                                                        </tr>
+                                                    </thead>
+                                                </table>
+                                            </div>
+                                            <div class="card-body p-0 w-100 ">
+                                                <div class="col-12 month_flow_img ">
+                                                    <img src="/asset/images/graph.png" alt=""
+                                                        class=" img-fluid p-3 p-xl-1  ">
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Monthly flow Table ended  -->
+                                    <!-- Connected cards graphcir dispaly in md and lg only strated -->
+                                    <div class="col-12 col-md-6 col-lg-6 col-xl-4 d-none d-md-block d-xl-none">
+                                        <div class="card mt-4 pb-4 ">
+                                            <div class="card-header position-relative rec_tra_bg"> Connected Cards <img
+                                                    src="/asset/images/close.png" alt=""
+                                                    class="position-absolute end-0 me-3" height="10px" width="10px">
+                                            </div>
+                                            <div class="card-body ">
+                                                <div class="row mt-4">
+                                                    <div class="col-5">
+                                                        <img src="/asset/images/graphcir.png" alt="" width="100px"
+                                                            class="image-fluid" height="100px">
+                                                    </div>
+                                                    <div class="col-1">
+                                                        <img src="/asset/images/record-button (1).png" alt=""
+                                                            width="14px" height="14px">
+                                                        <img src="/asset/images/record-button.png" alt="" width="14px"
+                                                            height="14px" class="mt-5">
+                                                    </div>
+                                                    <div class="col">
+                                                        Income <p>$20,490.000</p>
+                                                        <div>expenses <p>$6,147.000</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Connected cards graphcir dispaly in md and lg only ended -->
+                                </div>
+                            </div>
+                            <!-- left side col in body started -->
+                            <!-- right side col in body started -->
+                            <div class="col-12 col-xl-4 right_col ">
+                                <!-- Connect cards two cards strated -->
+                                <div class="card mt-4">
+                                    <div class="card-header position-relative rec_tra_bg">
+                                        Connected Cards <img src="/asset/images/close.png" alt=""
+                                            class="position-absolute end-0 me-3 mt-2  " height="10px" width="10px">
+                                    </div>
+                                    <div class="card-body p-4  text-light">
+                                        <div class="row gap-4" >
+                                            <div class=" col-12 col-md-5 col-xl-11 mb-3 m-md-0  ms-md-5 ms-xl-0  ms-xl-3  rounded-1 two_card_first_gradient">
+                                                <div class="row ps-3 mb-2 pt-2">Visa</div>
+                                                <div class="row mb-2">
+                                                    <div class="col-3">1655</div>
+                                                    <div class="col-3 pe-0">8462</div>
+                                                    <div class="col-3">1154</div>
+                                                    <div class="col-3 pe-0">2998</div>
+                                                </div>
+                                                <div class="col text-end mb-2 me-4 me-xl-0 valid_thiru">VALID THIRU
+                                                </div>
+                                                <div class="row  pb-2 mb-2">
+                                                    <div class="col-7">Sarah J Black</div>
+                                                    <div class="col-4">01/23</div>
+                                                </div>
+                                            </div>
+                                            <div  class=" col-12 col-md-5 col-xl-11 mb-2  m-md-0 ms-xl-3 rounded-1 two_card_sec_gradient">
+                                                <div class="row ps-3  pt-2 mb-2">Visa</div>
+                                                <div class="row  mb-2">
+                                                    <div class="col-3">1655</div>
+                                                    <div class="col-3 pe-0 ">8462</div>
+                                                    <div class="col-3">1154</div>
+                                                    <div class="col-3 pe-0">2998</div>
+                                                </div>
+                                                <div class="col text-end  mb-2 me-4 me-xl-0 valid_thiru">VALID THIRU
+                                                </div>
+                                                <div class="row pb-2  mb-2">
+                                                    <div class="col-7">Jhon M Black</div>
+                                                    <div class="col-4">01/23</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Connect cards two cards ended -->
+                                 <!-- Connected cards graphcir dispaly only in xl strated -->
+                                 <div class="col-12 d-block d-md-none d-xl-block">
+                                    <div class="card mt-4 pb-4 ">
+                                        <div class="card-header position-relative   rec_tra_bg">
+                                            Connected Cards <img src="/asset/images/close.png" alt=""
+                                                class="position-absolute end-0 me-3 mt-2" height="10px"
+                                                width="10px">
+                                        </div>
+                                        <div class="card-body "></div>
+                                        <div class="row mt-4 p-2">
+                                            <div class="col-6">
+                                                <img src="/asset/images/graphcir.png" alt="" width="100px"
+                                                    height="100px" class="ms-4  ">
+                                            </div>
+                                            <!-- <div class="col-1">
+                                            <img src="/asset/images/record-button (1).png" alt="" width="14px"
+                                                height="14px">
+                                            <img src="/asset/images/record-button.png" alt="" width="14px"
+                                                height="14px" class="mt-5">
+                                        </div> -->
+                                            <div class="col">
+                                                <img src="/asset/images/record-button (1).png" alt="" width="14px"
+                                                    height="14px"> <small> Income <p class="ps-3">$20,490.000</p>
+                                                </small>
+                                                <img src="/asset/images/record-button.png" alt="" width="14px"
+                                                    height="14px"> expenses <small>
+                                                    <p class="ps-3">$6,147.000</p>
+                                                </small>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Connected cards graphcir dispaly only in xl ended -->
+                                <!-- right side col in body ended -->
+                            </div>
+                        </div>
+                        <!-- our Account col ended -->
+                    </div>
+                    <!--Body content row ended -->
+                </div>
+                <!-- row with overall Content ended   -->
+            </div>
+            <!-- second col overall Content ended -->
+        </div>
+</body>
+<script src="/asset/JS/bootstrap.bundle.js"></script>
+
+</html>

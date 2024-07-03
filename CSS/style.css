@@ -1,0 +1,25 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+.second_col{
+    background-color: #5f85d5;
+}
+.Login_button{
+    background-color: #5f85d5;
+}
+#logo{
+    font-size: 140px;
+    font-weight: 1500;
+}
+input{
+    padding: 12px;
+}
+
+.login_sm{
+    background-color: #5f85d5;
+    height: 100px;
+}
+.Logo_img_sm{
+    width:100px;
+    height:100px;
+}
